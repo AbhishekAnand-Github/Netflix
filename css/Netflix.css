@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(19, 18, 18);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+   width: auto;
+   height: 100%;
+   float: left;
+}
+
+#logo img{
+   width: 50px;
+   height: 50px;
+   margin: 12px 0px 0px 40px;
+}
+
+#logo img:hover{
+ transform: scale(0.9);
+ transition: 1s;
+ z-index: 1;
+ cursor: pointer;
+}
+
+
+#head{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(217, 35, 46, 0.9);
+    backdrop-filter: blur(6px);
+}
+
+#menu{
+    width: auto;
+    height: 70px;
+    float: right;
+}
+
+#menu ul li{
+   float: left;
+   margin: 30px 30px 0px 80px;
+   list-style-type: none;
+}
+
+
+#menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+ }
+
+#menu ul li a:hover{
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+ #main{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ #top{
+    height: 400px;
+ }
+
+ #top img{
+    height: 500px;
+    width: 1100px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin: 0px auto;
+ }
+
+
+ button{
+    height: 60px;
+    width: 200px;
+    background-color: #d9232e;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 6px 10px #000000;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ button:hover{
+   background-color: white;
+   font-weight: bold;
+   color: #d9232e;
+   transition: all 1s;
+   cursor: pointer;
+}
